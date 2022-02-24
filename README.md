@@ -1,4 +1,4 @@
-# rp-scoring
+# Rentpath github event scoring
 
 A compojure web application that consumes data from Postgres. Github events are produced into kafka which are written into Postgres.
 
@@ -14,7 +14,7 @@ Clean the environment with
 
 ## Run the app
 
- Run the entire stack with docker-compose up
+ Run the entire stack with **docker-compose up**
 
 localhost:3000/scores
 
