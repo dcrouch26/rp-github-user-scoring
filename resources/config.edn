@@ -1,0 +1,9 @@
+{:bootstrap #env BOOTSTRAP 
+ :topic "github-events"
+ :db-spec
+ {:dbtype "postgresql"
+  :dbname "postgres"
+  :host #env POSTGRES_HOST
+  :port 5432
+  :user "postgres"
+  :password "postgres"}}
